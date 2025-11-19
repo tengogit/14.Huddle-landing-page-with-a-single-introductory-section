@@ -1,0 +1,44 @@
+@media(width>768px) {
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cont {
+        width: 608px;
+        height: 934px;
+    }
+
+    main {
+        width: 520px;
+        height: 301px;
+    }
+
+    h1 {
+        font-size: 40px;
+
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    button {
+        width: 200px;
+        height: 40px;
+        border-radius: 28px;
+    }
+
+
+
+    .mainimg {
+        width: 608px;
+        height: 431px;
+    }
+
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+}

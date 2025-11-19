@@ -1,0 +1,64 @@
+@media(width>1440px) {
+    .cont {
+
+        width: 1272px;
+        height: 693px;
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    body {
+        background-image: url(./assets/bg-desktop.svg);
+    }
+
+    .im1 {
+        width: 200px;
+        height: 32px;
+    }
+
+    .mainimg {
+        width: 696px;
+        height: 493px;
+    }
+
+    main {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    button {
+        margin-top: 40px;
+    }
+
+    footer {
+        margin-top: 100px;
+        align-self: flex-end;
+    }
+
+    .active {
+        pointer-events: all;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #E880E8;
+    }
+
+    button:hover p {
+        color: white;
+    }
+
+    footer img {
+        fill: #FF52C1;
+    }
+
+    a:active {
+        border-color: #ff3aa5;
+
+    }
+
+    a:active .icons {
+        filter: invert(66%) sepia(83%) saturate(2811%) hue-rotate(289deg) brightness(102%) contrast(101%);
+    }
+}
