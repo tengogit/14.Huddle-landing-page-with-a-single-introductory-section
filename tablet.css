@@ -1,4 +1,4 @@
-@media(width>768px) {
+@media(min-width:768px) {
 
     body {
         background-size: cover;
